@@ -1,0 +1,14 @@
+<H2>Mobiles</H2>
+
+<ul class="col-md-12"  >
+	<a ui-sref="View">
+                <li class="thumbnail col-md-4" ng-repeat="mobile in mobiles | filter: { category: 'mobile' }" >
+                    
+                        <img  ng-src="{{mobile.image}}" ng-click="view(mobile)" ng-model="view" alt="Not Found" height />
+                        <label>{{mobile.description}}</label>
+                        <label>Rupees: {{mobile.cost}}</label>
+                   
+                   
+                </li> 
+                </a> 
+        </ul>

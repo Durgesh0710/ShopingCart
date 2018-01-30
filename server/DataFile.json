@@ -1,0 +1,151 @@
+[{
+		"id": "1",
+		"description": "Samsung Galaxy On Nxt(Gold,16 GB)",
+		"category": "mobile",
+		"image": "image/image1.jpeg",
+		"cost": "10999",
+		"feature": [
+			"3 GB RAM ",
+			"16 GB ROM",
+			" Expandable Upto 256 GB",
+			"5.5 inch Full HD Display",
+			"13MP Rear Camera ",
+			" 8MP Front Camera",
+			"3300 mAh Li-ion Battery",
+			"Exynos 7870 Octa Core 1.6 GHz Processor"
+		]
+	}, {
+		"id": "2",
+		"description": "Samsung Galaxy On Nxt(Black,16 GB)",
+		"category": "mobile",
+		"image": "image/image2.jpg",
+		"cost": "10999",
+		"feature": ["3 GB RAM ", "16 GB ROM", " Expandable Upto 256 GB",
+			"5.5 inch Full HD Display",
+			"13MP Rear Camera ", " 8MP Front Camera",
+			"3300 mAh Li-ion Battery",
+			"Exynos 7870 Octa Core 1.6 GHz Processor"
+		]
+	}, {
+		"id": "3",
+		"description": "Samsung S7 Edge(Black Pearl,128 GB)",
+		"category": "mobile",
+		"image": "image/image3.jpg",
+		"cost": "46835",
+		"feature": ["4 GB RAM ", "128 GB ROM",
+			"5.5 inch Display",
+			"12MP Rear Camera ",
+			"3600 mAh Li-ion Battery",
+			"Exynos 8890 Octa Core 1.6 GHz Processor"
+		]
+	}, {
+		"id": "4",
+		"description": "Samsung Galaxy J7 Nxt(Black,32 GB)",
+		"category": "mobile",
+		"image": "image/image4.jpg",
+		"cost": "12990",
+		"feature": ["3 GB RAM ", "32 GB ROM", " Expandable Upto 256 GB",
+			"5.5 inch Full HD Display",
+			"13MP Rear Camera ", " 5MP Front Camera",
+			"3300 mAh Li-ion Battery",
+			"Exynos Octa Core 1.6 GHz Processor"
+		]
+	}, {
+		"id": "5",
+		"description": "Samsung Galaxy J7 Nxt(Gold,32 GB)",
+		"category": "mobile",
+		"image": "image/image5.jpg",
+		"cost": "12990",
+		"feature": ["3 GB RAM ", "32 GB ROM", " Expandable Upto 256 GB",
+			"5.5 inch Full HD Display",
+			"13MP Rear Camera ", " 5MP Front Camera",
+			"3300 mAh Li-ion Battery",
+			"Exynos Octa Core 1.6 GHz Processor"
+		]
+
+	}, {
+		"id": "6",
+		"description": "Trip Printed Men V-neck Black T-Shirt",
+		"category": "tshirt",
+		"image": "image/image6.jpg",
+		"cost": "439",
+		"feature": ["Fabric: Cotton ", "Regular Fit V-neck T-shirt", " Pattern: Printed",
+			"Full Sleeve"
+		]
+	}, {
+		"id": "7",
+		"description": "Billion PerfectFit Solid Men V-neck Grey, Black T-shirt",
+		"category": "tshirt",
+		"image": "image/image7.jpg",
+		"cost": "333",
+		"feature": ["Fabric: Cotton ", "Slim Fit V-neck T-shirt", " Pattern: Solid",
+			"Narrow Half Sleeve"
+		]
+	}, {
+		"id": "8",
+		"description": "Billion PerfectFit Solid Men V-neck Grey, White T-shirt",
+		"category": "tshirt",
+		"image": "image/image8.jpg",
+		"cost": "700",
+		"feature": ["Fabric: Cotton ", "Slim Fit V-neck T-shirt", " Pattern: Solid",
+			"Narrow Half Sleeve"
+		]
+	}, {
+		"id": "9",
+		"description": "Billion PerfectFit Solid Men Round, Neck Multicolor T-shirt",
+		"category": "tshirt",
+		"image": "image/image9.jpg",
+		"cost": "944",
+		"feature": ["Fabric: Cotton ", "Slim Fit V-neck T-shirt", " Pattern: Solid",
+			"Narrow Half Sleeve"
+		]
+	}, {
+		"id": "10",
+		"description": "Billion PerfectFit Solid Men V-neck Black, Grey T-shirt",
+		"category": "tshirt",
+		"image": "image/image10.jpg",
+		"cost": "333",
+		"feature": ["Fabric: Cotton ", "Slim Fit V-neck T-shirt", " Pattern: Solid",
+			"Narrow Half Sleeve"
+		]
+	}, {
+		"id": "11",
+		"description": "Demira Drop 9kt Diamond, Emerald Yellow Gold Pendant",
+		"category": "jewellery",
+		"image": "image/image11.jpg",
+		"cost": "4540",
+		"feature": ["Gold Purity: 9kt ", "Gemstone:Diamond, Emerald", "chain included:No"]
+
+	}, {
+		"id": "12",
+		"description": "Karat Square Starfish 14kt Yellow Gold Pendant",
+		"category": "jewellery",
+		"image": "image/image12.jpg",
+		"cost": "4489",
+		"feature": ["Gold Purity: 14kt ", "Gemstone:NA", "chain included:NA"]
+	}, {
+		"id": "13",
+		"description": "Karat Square Starfish 18kt White Gold Pendant",
+		"category": "jewellery",
+		"image": "image/image13.jpg",
+		"cost": "7889",
+		"feature": ["Gold Purity: 18kt ", "Ring Size:16"]
+	}, {
+		"id": "14",
+		"description": "Demira Drop 9kt Diamond, Diamond Yellow Gold Pendant",
+		"category": "jewellery",
+		"image": "image/image14.jpg",
+		"cost": "3670",
+		"feature": ["Gold Purity: 9kt ", "Setting:Prong", "Gemstone:Diamond, Emerald", "Ring Size:16"]
+
+	}, {
+		"id": "15",
+		"description": "Karat Square Pretty 10kt Diamond White Gold Pendant",
+		"category": "jewellery",
+		"image": "image/image15.jpg",
+		"cost": "5649",
+		"feature": ["Gold Purity: 14kt ", "Setting:Prong", "Diamond clarity:SI"]
+
+	}
+
+]

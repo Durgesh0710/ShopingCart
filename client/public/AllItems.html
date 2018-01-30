@@ -1,0 +1,15 @@
+
+<H2>All Items</H2>
+
+
+<ul class="col-md-12"  >
+	<a ui-sref="View" >
+                <li class="thumbnail col-md-4" ng-repeat="item in Items " >
+                    
+                        <img  ng-src="{{item.image}}" alt="Not Found" ng-click="view(item)" ng-model="view" style="height:200px" />
+                        <label>{{item.description}}</label>
+                        <label>Rupees: {{item.cost}}</label>
+                   
+                </li>  
+            </a>
+        </ul>

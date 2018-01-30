@@ -1,0 +1,87 @@
+<!DOCTYPE Html>
+<Html>
+<Head>
+	<link rel ="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <style>
+        .navbar { border-radius:0; }
+    </style>
+    <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+    <script src="app.js"></script>
+    <script src="allItemCtrl.js"></script>
+    <script src="mobileCtrl.js"></script>
+    <script src="jewelleryCtrl.js"></script>
+    <script src="tshirtsCtrl.js"></script>
+    <script src="viewItemCtrl.js"></script>
+    <script src="addToCartCtrl.js"></script>
+
+    
+</Head>
+<Body ng-app="myApp" ng-ng-controller="indexCtrl" >
+	<nav class="navbar navbar-inverse nav-fixed-top" role="navigation">
+        <div class="container-fluid">
+                <div class="col-md-9">
+                <div class="navbar-header">
+                    <a class="navbar-brand"><h4 style="color: LightSteelBlue;">LeLe BHAI !!!</h4></a>
+                    
+                </div>      
+            </div>
+            <div class="col-md-1">
+                <ul class="nav navbar-nav">
+                        <li><a ui-sref="cart"><h4>Cart</h4></a></li>
+                        
+                    </ul>
+            </div>
+            <div class="col-md-2">
+                    <img src="x.jpg" class="img-responsive" style="max-width: 40%; max-height: 40%;">  
+            </div>
+        </div>
+    
+    
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-md-2" style="background-color: Gray;">
+
+<div id="wrapper">
+
+        
+        <div id="sidebar-wrapper">
+            <H2> Categories</H2>
+            <ul class="sidebar-nav">
+                
+                
+                <li>
+                    <a ui-sref="all">All Items</a>
+                </li>   
+                <li>
+                    <a ui-sref="mobile">Mobiles</a>
+                </li>
+                <li>
+                    <a ui-sref="jewellery">Jewellery</a>
+                </li>
+                <li>
+                    <a ui-sref="tshirts">T-Shirts</a>
+                </li>
+                
+            </ul>
+        </div>
+        
+
+        
+
+    </div>
+</div>
+<div class="col-md-10" style="background-color: LightGray; ">
+
+
+    
+    <div ui-view></div>
+
+</div>
+</div>
+</div>
+</Body>
+</Html>

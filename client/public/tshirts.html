@@ -1,0 +1,14 @@
+<H2>T-Shirts</H2>
+
+<ul class="col-md-12"  >
+	<a ui-sref="View">
+                <li class="thumbnail col-md-4" ng-repeat="tshirt in tshirts | filter: { category: 'tshirt' }" >
+                    
+                        <img  ng-src="{{tshirt.image}}" ng-click="view(tshirt)" ng-model="view" alt="Not Found" style="height:200px" />
+                        <label>{{tshirt.description}}</label>
+                        <label>Rupees: {{tshirt.cost}}</label>
+                   
+                   
+                </li>  
+            </a>
+        </ul>

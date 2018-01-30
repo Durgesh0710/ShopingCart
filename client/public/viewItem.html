@@ -1,0 +1,30 @@
+
+<H2>View</H2>
+<div class="row">
+<div class="col-md-12"  >            
+      <div class="col-md-6">              
+            <img  ng-src="{{image}}" alt="Not Found" style="height:200px; width: 100px" />  
+        </div>  
+        <div class="col-md-6">
+						<label>Description:</label>
+                        {{description}}</br>
+                        <label>Features:</label>
+                        <ul class="col-md-12" ng-repeat="feature in features">
+
+                        	<li >{{feature}}</li>
+                        </ul></br>	
+                        <label>Rupees: {{cost}}</label>
+                   
+                </div>  
+            
+        </div>
+    </div>
+    <div class="row">
+		<div class="col-md-12"  >            
+      		<div class="col-md-7">
+      		</div>
+      		<div class="col-md-5">
+    		<a ui-sref="cart">	<button type="button" ng-click="add()" ng-model="add" class="btn btn-default" >Add to Cart</button>
+    		</div>
+    	</div>
+    </div>

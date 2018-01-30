@@ -1,0 +1,20 @@
+<h2>CART</h2>
+<table class="table table-striped" style="border-collapse: collapse" >
+    <thead>
+		<tr>
+			<th>ID</th>
+			<th>Description</th>
+			<th>Image</th>
+			<th>Cost</th>
+			<th>Action</th>
+	</thead>
+	<tbody>
+		<tr ng-repeat="item in records">
+			<td>{{item.id}}</td>
+			<td>{{item.description}}</td>
+			<td> <img  ng-src="{{item.image}}" alt="Not Found" style="height:100px" /></td>
+			<td>{{item.cost}}</td>
+			<td> <input type="button" value="Remove" class="btn btn-default" ng-click="removeRow(item.id)"/></td>
+		</tr>
+	</tbody>
+</table>
