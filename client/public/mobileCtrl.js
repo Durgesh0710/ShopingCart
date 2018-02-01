@@ -1,7 +1,7 @@
 app.controller('mobileCtrl', function($scope,$http,performer) {
 $http({
         method : "GET",
-        url : "http://localhost:5018/getMobiles"
+        url : "http://localhost:5018/getMobiles/mobile"
     }).then(function mySuccess(response) {
     	console.log(response.data);
         $scope.mobiles = response.data;

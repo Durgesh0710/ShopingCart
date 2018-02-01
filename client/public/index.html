@@ -10,6 +10,7 @@
     <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
     <script src="app.js"></script>
+    <script src="indexCtrl.js"></script>
     <script src="allItemCtrl.js"></script>
     <script src="mobileCtrl.js"></script>
     <script src="jewelleryCtrl.js"></script>
@@ -19,7 +20,7 @@
 
     
 </Head>
-<Body ng-app="myApp" ng-ng-controller="indexCtrl" >
+<Body ng-app="myApp" ng-controller="indexCtrl" >
 	<nav class="navbar navbar-inverse nav-fixed-top" role="navigation">
         <div class="container-fluid">
                 <div class="col-md-9">
@@ -38,9 +39,10 @@
                     <img src="x.jpg" class="img-responsive" style="max-width: 40%; max-height: 40%;">  
             </div>
         </div>
-    
+    <!-- <button type="button" ng-click="sendData()">Request</button> -->
     
 </nav>
+
 <div class="container">
     <div class="row">
         <div class="col-md-2" style="background-color: Gray;">

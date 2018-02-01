@@ -68,9 +68,11 @@ app.service('performer',function(){
             OBJk.jsonArr=[];
         }
         OBJk.jsonArr.push(item);
+        
     }
 
     this.getItem=function(){
+        
         return OBJk.jsonArr;
     }
 

@@ -2,7 +2,7 @@
 
 <ul class="col-md-12">
 	<a ui-sref="View">
-                <li class="thumbnail col-md-4" ng-repeat="jwl in jewelleries | filter: { category: 'jewellery' }" >
+                <li class="thumbnail col-md-4" ng-repeat="jwl in jewelleries " >
                     
                         <img  ng-src="{{jwl.image}}" alt="Not Found" ng-click="view(jwl)" ng-model="view" style="height:200px" />
                         <label>{{jwl.description}}</label>

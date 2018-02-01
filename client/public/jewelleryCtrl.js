@@ -1,7 +1,7 @@
 app.controller('jewelleryCtrl', function($scope,$http,performer) {
 $http({
         method : "GET",
-        url : "http://localhost:5018/getJewellery"
+        url : "http://localhost:5018/getJewellery/jewellery"
     }).then(function mySuccess(response) {
     	console.log(response.data);
         $scope.jewelleries = response.data;

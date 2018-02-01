@@ -11,7 +11,10 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
+    "fs": "0.0.1-security",
     "method-override": "*",
-    "fs": "0.0.1-security"
+    "mongoose": "^5.0.2",
+    "path": "^0.12.7",
+    "q": "^1.5.1"
   }
 }
